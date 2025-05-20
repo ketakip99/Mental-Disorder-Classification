@@ -1,30 +1,32 @@
-# Mental Disorder Classification – Applied Machine Learning
+# 🧠 Mental Disorder Classification | Applied Machine Learning
 
 ## Overview
-This project utilizes advanced machine learning models to classify mental health conditions based on behavioral and psychological traits. It demonstrates the potential of AI in augmenting clinical diagnosis.
+This project applies supervised learning to classify mental disorders based on a range of behavioral indicators. By combining multiple machine learning models, the system aims to assist early-stage mental health diagnosis.
 
 ## Team
 - Ketaki Paranjape
 - Rajasi Barapatre
 
 ## Dataset
-- Source: Kaggle
-- Features: Behavioral indicators such as mood swings, sleep disorders, concentration, etc.
+- Source: Kaggle  
+- 120 patient records, 18 attributes  
+- Features include sleep issues, self-harm tendencies, anxiety, emotional stability, etc.
 
-## Models Implemented
-- CatBoost (Best performing model – 83% accuracy)
-- Voting Classifier (Hard & Soft)
-- LightGBM, XGBoost, AdaBoost
-- Neural Network (Keras)
+## Models Applied
+- 🎯 CatBoost Classifier (83% Accuracy)
+- 🤖 Voting Ensemble (Random Forest, KNN, Decision Tree)
+- 🔥 XGBoost, LightGBM, AdaBoost
+- 🧠 Neural Network (Keras)
 
-## Techniques
-- Label Encoding
-- Train/Test Split
-- Accuracy and Classification Reports
-- Correlation Heatmaps
+## Evaluation Metrics
+- Accuracy, Precision, Recall, F1-Score
+- Confusion Matrices
+- Model comparison via heatmaps and correlation plots
 
-## Results
-Each model’s output was compared using performance metrics such as precision, recall, and F1-score. Ensemble models performed consistently well across the dataset.
+## Tools & Libraries
+- Scikit-learn, TensorFlow Keras  
+- CatBoost, LightGBM, XGBoost  
+- Pandas, Seaborn, Matplotlib
 
-## Conclusion
-This study reflects how machine learning can assist in behavioral analytics and support clinical assessments with data-backed predictions.
+## Outcome
+A reliable, interpretable model capable of aiding professionals in recognizing mental health patterns. The ensemble models showed strong performance across all major evaluation metrics.
