@@ -1,11 +1,8 @@
-# 🧠 Mental Disorder Classification | Applied Machine Learning
+# 🧠 Mental Disorder Classification | Applied and Explainable Machine Learning
 
 ## Overview
 This project applies supervised learning to classify mental disorders based on a range of behavioral indicators. By combining multiple machine learning models, the system aims to assist early-stage mental health diagnosis.
 
-## Team
-- Ketaki Paranjape
-- Rajasi Barapatre
 
 ## Dataset
 - Source: Kaggle  
